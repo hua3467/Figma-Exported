@@ -1,0 +1,190 @@
+:root {
+	--color-background-gradient: radial-gradient(rgba(88,107,211,0.345) 0%,rgba(96,43,154,0.376) 100%);
+	--color-white: rgba(255,255,255,1);
+	--color-black: rgba(0,0,0,1);
+	--color-primary-000: rgba(245,240,255,1);
+	--color-primary-100: rgba(238,229,255,1);
+	--color-primary-200: rgba(220,204,255,1);
+	--color-primary-300: rgba(186,153,255,1);
+	--color-primary-400: rgba(151,102,255,1);
+	--color-primary-500: rgba(116,51,255,1);
+	--color-primary-600: rgba(93,41,204,1);
+	--color-primary-700: rgba(70,31,153,1);
+	--color-primary-800: rgba(47,20,102,1);
+	--color-primary-900: rgba(21,6,53,1);
+	--color-secondary-100: rgba(255,245,205,1);
+	--color-secondary-200: rgba(255,233,140,1);
+	--color-secondary-300: rgba(255,207,3,1);
+	--color-secondary-400: rgba(235,172,0,1);
+	--color-secondary-500: rgba(201,131,0,1);
+	--color-secondary-600: rgba(153,94,0,1);
+	--color-secondary-700: rgba(102,61,0,1);
+	--color-secondary-800: rgba(62,37,0,1);
+	--color-alert-50: rgba(255,247,247,1);
+	--color-alert-100: rgba(255,230,230,1);
+	--color-alert-200: rgba(248,191,191,1);
+	--color-alert-300: rgba(238,132,132,1);
+	--color-alert-500: rgba(184,61,61,1);
+	--color-alert-600: rgba(148,47,47,1);
+	--color-alert-700: rgba(124,31,37,1);
+	--color-alert-800: rgba(74,24,24,1);
+	--color-grey-900: rgba(38,38,51,1);
+	--color-grey-850: rgba(45,45,60,1);
+	--color-grey-800: rgba(59,59,77,1);
+	--color-grey-700: rgba(92,92,115,1);
+	--color-grey-600: rgba(126,126,153,1);
+	--color-grey-500: rgba(162,162,191,1);
+	--color-grey-400: rgba(191,191,217,1);
+	--color-grey-300: rgba(205,205,225,1);
+	--color-grey-200: rgba(220,220,237,1);
+	--color-grey-100: rgba(234,234,245,1);
+	--color-grey-000: rgba(245,245,251,1);
+	--color-grey-opacity-000-60: rgba(245,245,251,0.600);
+	--color-grey-opacity-900-75: rgba(38,38,51,0.750);
+}
+.text-style-display-extra-large {
+	font-size: 72px;
+	font-family: "Montserrat";
+	font-weight: 800;
+	font-style: normal;
+	line-height: 90px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-display-large {
+	font-size: 62px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 77.5px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-display-medium {
+	font-size: 50px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 62.5px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-display-small {
+	font-size: 44px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 55px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-medium-bold {
+	font-size: 40px;
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-style: normal;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-medium-regular {
+	font-size: 40px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-medium-light {
+	font-size: 40px;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-style: normal;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-small-bold {
+	font-size: 32px;
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-small-regular {
+	font-size: 32px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 48px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-small-light {
+	font-size: 32px;
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-xs-regular {
+	font-size: 24px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 36px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-body-xxs-regular {
+	font-size: 16px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-label-tooltip {
+	font-size: 24px;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.text-style-label-link {
+	font-size: 20px;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+.effect-style-elevation-1 {
+	box-shadow: inset 0px 0px 4px rgba(0,0,0,0.100), inset 2px 2px 4px 1px rgba(56,57,94,0.150);
+}
+.effect-style-elevation-1 {
+	box-shadow: inset 0px 0px 4px rgba(0,0,0,0.100), inset 2px 2px 4px 1px rgba(56,57,94,0.150);
+}
+.effect-style-elevation-1 {
+	box-shadow: 1px 1px 2px rgba(103,87,136,0.250);
+}
+.effect-style-elevation-2 {
+	box-shadow: 1px 1px 2px rgba(103,87,136,0.150), 2px 4px 12px rgba(105,90,124,0.170);
+}
+.effect-style-elevation-2 {
+	box-shadow: 1px 1px 2px rgba(103,87,136,0.150), 2px 4px 12px rgba(105,90,124,0.170);
+}
+.effect-style-elevation-3 {
+	box-shadow: 1px 3px 4px 1px rgba(103,87,136,0.120), 6px 12px 20px rgba(105,90,124,0.170);
+}
+.effect-style-elevation-3 {
+	box-shadow: 1px 3px 4px 1px rgba(103,87,136,0.120), 6px 12px 20px rgba(105,90,124,0.170);
+}
+.effect-style-background-blur-32 {
+	backdrop-filter : blur(32px);
+}

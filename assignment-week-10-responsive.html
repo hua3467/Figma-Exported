@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            background: white;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+
+        main {
+            width: 100%;
+        }
+
+        header {
+            padding: 2rem 5%;
+            background: white;
+        }
+
+        .title-bar {
+            padding-left: 1rem;
+            border-left: 8px #00CC82 solid;
+        }
+
+        .lecture-title {
+            display: flex;
+            gap: 0.5rem;
+            color: #004729;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        .assignment-heading {
+            color: #004729;
+            font-size: 4.5rem;
+            font-weight: 800;
+            line-height: 5.625rem;
+            max-width: 888px;
+        }
+
+        .alert-due {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.7rem;
+            padding: 0.875rem 0.9375rem;
+            background: #FFF7F7;
+            box-shadow: 2px 7px 10px rgba(104.61, 89.90, 123.75, 0.17);
+            border-radius: 12px;
+            border: 2px #B83D3D solid;
+            color: #B83D3D;
+            font-size: 1.25rem;
+            margin-top: 1rem;
+
+            position: absolute;
+            right: 67.75px;
+            top: 32px;
+        }
+
+        .alert-due .icon {
+            width: 35.25px;
+            height: 35.25px;
+        }
+
+        .alert-due strong {
+            font-weight: 700;
+        }
+
+        .body-content {
+            padding: 0 7%;
+            margin: 2rem 0;
+        }
+
+        .requirements {
+            width: 100%;
+        }
+
+        ol.assignment-list {
+            list-style: none;
+            width: 100%;
+        }
+
+        .assignment-list li {
+            padding: 0.7rem 5% 0.7rem 0;
+            border-top: 1px #CDCDE1 solid;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        .notes {
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            margin: 2rem 0;
+        }
+
+        .notes a {
+            color: black;
+            text-decoration: underline;
+        }
+
+        footer {
+            padding: 2rem;
+        }
+
+        .footer-notes {
+            color: #7E7E99;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
+            max-width: 1633px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <header>
+                <div class="title-bar">
+                    <div class="lecture-title">
+                        <span>Week 10</span>
+                        <span>.</span>
+                        <span>Seductive Interaction, Ideation</span>
+                    </div>
+                    <h1 class="assignment-heading">Assignment</h1>
+                </div>
+                <div class="alert-due">
+                    <div class="icon">
+                        <svg viewBox="0 0 27 30" fill="#B83D3D">
+                            <!-- Add your calendar icon SVG path here -->
+                        </svg>
+                    </div>
+                    <strong>Due:</strong>
+                    <span>Sun. 11/03/2024, 10:00 PM</span>
+                </div>
+            </header>
+
+            <section class="body-content">
+                <div class="requirements">
+                    <ol class="assignment-list">
+                        <li>Add a new section to your design brief, talk about how you are going apply seductive interaction in your design. (10)*</li>
+                        <li>Brainstorm solutions using value proposition. (10)**</li>
+                        <li>Write one hypothesis statement for each of your solutions. (10)</li>
+                        <li>Write one goal statement base on each hypothesis statement. (10)</li>
+                        <li>Create user flow diagrams for major user tasks for your design. (10)</li>
+                        <li>Explore design ideas with sketch base on your flow charts. Provide <strong>at least Four ideas</strong> in sketch for each major page. (20)</li>
+                        <li>Working quality (30)</li>
+                    </ol>
+                </div>
+
+                <div class="notes">
+                    *Please read this lecture or referred book for more information: 
+                    <a href="https://www.figma.com/design/T1jkV8AQb2oFHOgoE4q9Nn/ARTGR-5300---User-Engagement?node-id=676-1363&t=1oLL1jFeaU1IVMBf-4">https://www.figma.com/design/T1jkV8AQb2oFHOgoE4q9Nn/ARTGR-5300---User-Engagement?node-id=676-1363&t=1oLL1jFeaU1IVMBf-4</a>
+                    <br><br>
+                    ** Refer to this slide: 
+                    <a href="https://www.figma.com/design/T1jkV8AQb2oFHOgoE4q9Nn/ARTGR-5300---User-Engagement?node-id=2366-2317&t=1oLL1jFeaU1IVMBf-4">https://www.figma.com/design/T1jkV8AQb2oFHOgoE4q9Nn/ARTGR-5300---User-Engagement?node-id=2366-2317&t=1oLL1jFeaU1IVMBf-4</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-notes">
+                Note: this grade is based on team performance. Your final degree might be different according to individual contribution and work quality.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

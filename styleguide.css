@@ -1,0 +1,10 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --primary-600: rgba(93, 41, 204, 1);
+    --body-XXS-regular-font-family: "Montserrat-Regular", Helvetica;
+    --body-XXS-regular-font-weight: 400;
+    --body-XXS-regular-font-size: 16px;
+    --body-XXS-regular-letter-spacing: 0px;
+    --body-XXS-regular-line-height: 24px;
+    --body-XXS-regular-font-style: normal;
+}

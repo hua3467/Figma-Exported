@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <style>
+            .btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    position: relative;
+    background-color: var(--primary-600);
+    /* width: 100%; */
+    min-width: 121px;
+    min-height: 56px;
+}
+
+.btn .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-XXS-regular-font-family);
+    font-weight: var(--body-XXS-regular-font-weight);
+    color: var(--white);
+    font-size: var(--body-XXS-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--body-XXS-regular-letter-spacing);
+    line-height: var(--body-XXS-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--body-XXS-regular-font-style);
+}
+
+        </style>
+    </head>
+    <body>
+        <button class="btn"><div class="text-wrapper">Button</div></button>
+    </body>
+</html>
